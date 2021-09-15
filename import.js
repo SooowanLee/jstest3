@@ -3,6 +3,8 @@
 // name이 있는 export는 갯수 상관X
 import _ from 'lodash'; // From `node_modules`!
 import getType from './getType' // getType.js
+
+
 // 이름이있는 export 가져오는 법 (as 키워드는 사용해서 이름 변경 가능)
 // import { random, user as soowan} from './getRandom'; // getRandom.js
 import * as R from './getRandom';
