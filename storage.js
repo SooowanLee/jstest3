@@ -16,4 +16,7 @@ console.log(JSON.parse(localStorage.getItem('user')));
 // localStorage의 데이터 수정
 const str = localStorage.getItem('user');
 const obj = JSON.parse(str);
+obj.age = 22;
+console.log(obj);
+localStorage.setItem('user', JSON.stringify(obj)); // 문자데이터화 시키기
 
